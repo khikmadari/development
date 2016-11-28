@@ -1,0 +1,5824 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#" id="top" class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#" id="top" class="no-js ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#" id="top" class="no-js ie8 oldie"> <![endif]-->
+<!--[if IE 9 ]>    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns#" id="top" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html id="top" class="no-js"> <!--<![endif]-->
+<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+        <head >
+
+            <script type="text/javascript">
+    //<![CDATA[
+    function createCookie(name, value, dateExp) {
+        if (dateExp) {
+            var expires = "; expires="+dateExp.toUTCString();
+        }
+        else var expires = "";
+        document.cookie = name+"="+value+expires+"; path=/";
+    }
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+       // ------ AB test
+        if(!readCookie('splash_test_1')){
+            var curExpires = new Date();
+            curExpires.setTime(curExpires.getTime() + 7776000000);
+            var aOrB = Math.random() < 0.5 ? 'a' : 'b';
+            createCookie('splash_test_1', aOrB, curExpires);
+        }
+// ------ AB test end
+
+    var curExpires = new Date();
+    curExpires.setTime(curExpires.getTime() + 21600000);
+
+    if(!readCookie('splash_time')){
+        var chosenSplash = "/welcome-to-liverpool-fc";
+
+        if(chosenSplash != '') {
+            redirected = true;
+            createCookie('splash_time', 1, curExpires);
+            window.location = chosenSplash;
+        }
+    }
+    //]]>
+</script>
+
+        <title>Liverpool FC</title>
+        <meta name="keywords" content="Liverpool, LFC, Liverpool FC" />
+<meta name="description" content="Liverpool FC" />
+<meta name="robots" content="index, follow" />
+<meta property="og:site_name" content="Liverpool FC" />
+<meta property="og:description" content="The official Liverpool FC website" />
+<meta property="og:type" content="article" />
+<meta property="fb:pages" content="67920382572" />
+<meta property="og:title" content="Liverpool FC" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8" />
+
+
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                          <link rel="shortcut icon" href="http://assets.lfcimages.com/v2/1676/lfc/images/favicon.png" type="image/png" />
+                  
+                    <link rel="stylesheet" href="http://widget.cloud.opta.net/2.0/css/widgets.opta.css" type="text/css" />
+
+            <!--[if IE 9]>
+            <link rel="stylesheet" type="text/css" href="http://widget.cloud.opta.net/2.0/css/ie9.widgets.opta.css" media="screen" />
+            <![endif]-->
+
+            <!--[if IE 8]>
+            <link rel="stylesheet" type="text/css" href="http://widget.cloud.opta.net/2.0/css/ie8.widgets.opta.css" media="screen" />
+            <![endif]-->
+
+            <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="http://widget.cloud.opta.net/2.0/css/ie7.widgets.opta.css" media="screen" />
+            <![endif]-->
+        
+                <link rel="stylesheet" href="css/style.css" />
+        
+        
+                <!--[if  (lt IE 9) & (!IEMobile)]>
+            <link rel="stylesheet" href="https://d3j2s6hdd6a7rg.cloudfront.net/v2/1676/lfc/css/styles-ie8.css" />
+        <![endif]-->
+        
+        
+    <!-- homepage -->
+            
+
+        <link rel="stylesheet" href="css/home.css" />
+    
+        <!--[if  (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="http://assets.lfcimages.com/v2/1676/lfc/css/home-ie8.css" />
+    <![endif]-->
+    
+
+                <!--[if lt IE 9]>
+            <script src="http://assets2.lfcimages.com/v2/1676/lfc/js/polyfills-ie8.min.js"></script>
+        <![endif]-->
+        
+                <!--[if IE 9]>
+        <script src="http://assets1.lfcimages.com/v2/1676/lfc/js/polyfills-ie9.min.js"></script>
+        <![endif]-->
+        
+        
+        
+                        <script src="base.js"></script>
+            
+            <script>
+ // create Lfc element with GPT command queue
+ var Lfc = Lfc || {};
+ Lfc.gtmAdQueue = Lfc.gtmAdQueue || [];
+ 
+ // Load GPT asynchronously
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+   var gads = document.createElement('script');
+   gads.async = true;
+   var useSSL = 'https:' == document.location.protocol;
+   gads.src = (useSSL ? 'https:' : 'http:') +
+       '//www.googletagservices.com/tag/js/gpt.js';
+   var node = document.getElementsByTagName('script')[0];
+   node.parentNode.insertBefore(gads, node);
+ })();
+</script>
+
+<style>
+.site-header-inner .masthead .masthead-links .more-menu ul li a {
+  background: none!important;
+}
+.site-header-inner .social-links li.skype {
+  display: none;
+}
+</style>
+
+        
+
+        <script type='text/javascript'>
+
+ googletag.cmd.push(function() {
+
+  var mapResMainHomeCarousel = googletag.sizeMapping().
+   addSize([0, 0], [320, 50]). 
+addSize([503, 0], [468, 60]).
+   addSize([783, 0], [728, 90]). 
+   addSize([1007, 0], [970, 90]).
+			addSize([1183, 0], [300, 250]).build();	
+
+var mapResMainHomeCarouselFeatures = googletag.sizeMapping().
+   addSize([0, 0], [320, 50]). 
+addSize([503, 0], [468, 60]).
+   addSize([783, 0], [728, 90]). 
+   addSize([1007, 0], [970, 90]).
+			addSize([1183, 0], [300, 250]).build();	
+
+var mapResMainHomeCarouselMediaWatch = googletag.sizeMapping().
+   addSize([0, 0], [320, 50]). 
+addSize([503, 0], [468, 60]).
+   addSize([783, 0], [728, 90]). 
+   addSize([1007, 0], [970, 90]).
+			addSize([1183, 0], [300, 250]).build();		
+																													
+  var mapResMainHomeCarouselMatch = googletag.sizeMapping().
+   addSize([0, 0], []). 
+   addSize([983, 0], [300, 250]).build();	
+
+  var mapResMainHomeRetail = googletag.sizeMapping().
+   addSize([0, 0], [320, 120]). 
+   addSize([500, 0], [468, 200]). 
+   addSize([750, 0], [728, 200]). 
+   addSize([983, 0], [215, 600]).build();	
+
+  var mapResMainHomeBettingMobile = googletag.sizeMapping().
+   addSize([0, 0], [320, 50]). 
+   addSize([683, 0], []).build();	
+
+var mapResMainHomeBettingNew = googletag.sizeMapping().
+   addSize([0, 0], [486, 60]). 
+   addSize([733, 0], [[728, 90], [970, 90]]).build();
+
+var mapResMainHomeNextToBetting = googletag.sizeMapping().
+   addSize([0, 0], [350, 90]).build();
+																																								
+  var mapResMainHomeMiddleBanner = googletag.sizeMapping().
+   addSize([0, 0], [320, 50]). 
+addSize([500, 0], [468, 60]).
+   addSize([750, 0], [728, 90]). 
+   addSize([1000, 0], [970, 90]).build();	
+
+	 //home page specific slots
+		googletag.defineSlot('/87687331/RES_MAIN_HOME_CAROUSEL', [320, 50], 'div-gpt-ad-RES_MAIN_HOME_CAROUSEL').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeCarousel).
+				addService(googletag.pubads());		
+
+googletag.defineSlot('/87687331/RES_MAIN_HOME_CAROUSEL_FEATURES', [320, 50], 'div-gpt-ad-RES_MAIN_HOME_CAROUSEL_FEATURES').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeCarouselFeatures).
+				addService(googletag.pubads());
+
+googletag.defineSlot('/87687331/RES_MAIN_HOME_CAROUSEL_MEDIA_WATCH', [320, 50], 'div-gpt-ad-RES_MAIN_HOME_CAROUSEL_MEDIA_WATCH').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeCarouselMediaWatch).
+				addService(googletag.pubads());
+
+		googletag.defineSlot('/87687331/RES_MAIN_HOME_CAROUSEL_MATCH', [300, 250], 'div-gpt-ad-RES_MAIN_HOME_CAROUSEL_MATCH').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeCarouselMatch).
+				addService(googletag.pubads());		
+
+		googletag.defineSlot('/87687331/RES_MAIN_HOME_BETTING_MOBILE', [320, 50], 'div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeBettingMobile).
+				addService(googletag.pubads());	
+
+googletag.defineSlot('/87687331/RES_MAIN_HOME_BETTING_NEW', [320, 50], 'div-gpt-ad-RES_MAIN_HOME_BETTING_NEW').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeBettingNew).
+				addService(googletag.pubads());	
+
+googletag.defineSlot('/87687331/RES_MAIN_HOME_NEXT_TO_BETTING', [350, 90], 'div-gpt-ad-RES_MAIN_HOME_NEXT_TO_BETTING').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeNextToBetting).
+				addService(googletag.pubads());
+
+		googletag.defineSlot('/87687331/RES_MAIN_HOME_MIDDLE_BANNER', [320, 50], 'div-gpt-ad-RES_MAIN_HOME_MIDDLE_BANNER').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeMiddleBanner).
+				addService(googletag.pubads());		
+
+ 	googletag.defineSlot('/87687331/RES_MAIN_HOME_RETAIL', [320, 120], 'div-gpt-ad-RES_MAIN_HOME_RETAIL').
+				setTargeting("test","true").
+				defineSizeMapping(mapResMainHomeRetail).
+				addService(googletag.pubads());		
+
+ googletag.pubads().collapseEmptyDivs(); 
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+ });
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#content-slider-wrapper a.view-all').attr('href', '/video');
+});
+</script>
+
+
+            
+            <meta name="apple-itunes-app" content="app-id=332227346">
+<meta name="google-play-app" content="app-id=tv.liverpoolfc">
+
+        
+    </head>
+
+    
+    <body class="main-site-layout sonata-bc template-main_homepage home">
+
+                    <!-- Google Tag Manager -->
+            <noscript>
+                <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2R8WV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <script>
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K2R8WV');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+    
+
+                                                         
+        
+<div class="wrapper">
+    <a id="page-top"></a>
+
+    <header id="site-header" class="site-header" role="banner">
+
+        <div class="site-header-inner">
+
+                                <div class="masthead">
+
+        
+            <ul class="account-links logged-out-only">
+                <li class="subnav">
+                    <a>Log In</a>
+                            <ul>
+            
+                <li class=" link-login first">        <a href="/my-lfc/login" target="">My LFC</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://tickets.liverpoolfc.com/PagesLogin/Profile/myAccount.aspx" target="">Tickets</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://store.liverpoolfc.com/customer/account/login/" target="">Online Store</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://members.liverpoolfc.com/login" target="">Membership</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/my-lfc/login?fragment=&amp;referer=http://www.liverpoolfc.com/video" target="">LFCTV GO</a>        
+    </li>
+
+    
+                <li class=" separator last">        <a href="http://www.liverpoolfc.com/loginhelp" target="">Not sure?</a>        
+    </li>
+
+
+    </ul>
+
+                </li>
+                <li class="link-separator">&nbsp;</li>
+                <li class="subnav">
+                    <a>Register</a>
+                            <ul>
+            
+                <li class="  first">        <a href="/my-lfc/join/user-details?user_type=free" target="">Free Registration</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/tickets" target="">Tickets</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://store.liverpoolfc.com/customer/account/login/" target="">Online Store</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/membership" target="">Join Membership</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/my-lfc/join/user-details?user_type=lfctvo" target="">Join LFCTV GO</a>        
+    </li>
+
+    
+                <li class=" separator last">        <a href="http://www.liverpoolfc.com/loginhelp" target="">Not Sure?</a>        
+    </li>
+
+
+    </ul>
+
+                </li>
+            </ul>
+
+            <ul class="account-links logged-in-only">
+                <li>
+                    <a href="http://www.liverpoolfc.com/scripts/logout.php" title="Logout" class="link-logout">Log out</a>
+                </li>
+                <li class="link-separator">&nbsp;</li>
+                <li>
+                    <a href="https://www.liverpoolfc.com/my-lfc" title="My LFC" class="link-my-lfc">My LFC</a>
+                </li>
+            </ul>
+
+        
+                    
+<div id="masthead-links" class="masthead-links">
+
+    <ul class="more-menu ">
+        <li class="more-menu-link">
+            <a>More</a>
+                        <ul>
+            
+                <li class="  first">        <a href="http://www.liverpoolfc.com/video">LFCTV GO</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://hospitality.liverpoolfc.com" target="">MATCH HOSPITALITY</a>        
+    </li>
+
+    
+                <li class="bp-min-large-more-min-xlarge-primary ">        <a href="http://www.liverpoolfc.com/membership/home" target="">MEMBERSHIP</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.liverpoolfc.com/stadium-expansion">STADIUM EXPANSION</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://stadiumtours.liverpoolfc.com">STADIUM TOURS</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://events.liverpoolfc.com" target="">MEETING &amp; EVENTS</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://soccerschools.liverpoolfc.com">SOCCER SCHOOLS</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://foundation.liverpoolfc.com">FOUNDATION</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://www.liverpoolfc.com/kopkids">KOP KIDS</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://store.liverpoolfc.com">SHOP</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://bootroom.liverpoolfc.com">BOOT ROOM</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://xtra.liverpoolfc.com">LFC XTRA</a>        
+    </li>
+
+    
+                <li class="bp-more-only  last">        <a href="http://anfieldforever.liverpoolfc.com" target="">ANFIELD FOREVER</a>        
+    </li>
+
+
+    </ul>
+
+
+        </li>
+    </ul>
+
+                <ul>
+            
+                <li class="  first">        <a href="http://www.liverpoolfc.com/video">LFCTV GO</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://hospitality.liverpoolfc.com" target="">MATCH HOSPITALITY</a>        
+    </li>
+
+    
+                <li class="bp-min-large-more-min-xlarge-primary ">        <a href="http://www.liverpoolfc.com/membership/home" target="">MEMBERSHIP</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.liverpoolfc.com/stadium-expansion">STADIUM EXPANSION</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://stadiumtours.liverpoolfc.com">STADIUM TOURS</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://events.liverpoolfc.com" target="">MEETING &amp; EVENTS</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://soccerschools.liverpoolfc.com">SOCCER SCHOOLS</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://foundation.liverpoolfc.com">FOUNDATION</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://www.liverpoolfc.com/kopkids">KOP KIDS</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://store.liverpoolfc.com">SHOP</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://bootroom.liverpoolfc.com">BOOT ROOM</a>        
+    </li>
+
+    
+                <li class="bp-more-only ">        <a href="http://xtra.liverpoolfc.com">LFC XTRA</a>        
+    </li>
+
+    
+                <li class="bp-more-only  last">        <a href="http://anfieldforever.liverpoolfc.com" target="">ANFIELD FOREVER</a>        
+    </li>
+
+
+    </ul>
+
+
+</div>
+
+            </div>
+
+<div class="logo">
+    
+    <a class="logo-large" title="Home" href="/">
+                        <img src="http://assets1.lfcimages.com/v2/1676/lfc/images/logo.png" alt="Liverpool FC" />
+                </a>
+    
+    <a class="logo-medium" title="Home" href="/">
+                                    <img src="http://assets1.lfcimages.com/v2/1676/lfc/images/logo.png" alt="Liverpool FC" />
+                        </a>
+    
+    <a class="logo-small" title="Home" href="/">
+                                    <img src="http://assets3.lfcimages.com/v2/1676/lfc/images/logo-small.png" alt="Liverpool FC" />
+                        </a>
+</div>
+
+
+<a href="//www.sc.com/en/" class="sponsor" target="main-sponsor">
+    Main Club Sponsor: S1tandard Chartered
+</a>
+
+<div class="search">
+
+</div>
+
+
+<nav class="main-menu">
+                <ul>
+            
+                <li class=" active-home first">        <a href="/" target="">HOME</a>        
+    </li>
+
+    
+                            <li class=" active-news">        <a href="/news" target="">NEWS</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/news/first-team" target="">First Team</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/tickets" target="">Ticket News</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/media-watch" target="">Media Watch</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/community" target="">Community</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/announcements" target="">Announcements</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/lfctv" target="">LFCTV - WHAT&#039;S ON</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/hillsborough/inquests" target="_blank">Hillsborough</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/stadium-expansion" target="_blank">Stadium Expansion</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://xtra.liverpoolfc.com/#/account/splash" target="_blank">LFC Xtra</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://nesn.com/liverpool-fc/" target="_blank">LFC on NESN</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/match">MATCH</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/match/fixtures" target="">Fixtures and Results</a>        
+    </li>
+
+                <li class="  first">        <a href="/match/fixtures" target="">Coba</a>        
+    </li>
+
+
+    
+                <li class=" ">        <a href="/match/2016-17/premier-league-table" target="">League Table</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/full-premier-league-fixtures-listing" target="">PL Calendar</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/under-23s/fixtures-and-results" target="">U23S</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/under-18s/fixtures-and-results" target="">U18S</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://ladies.liverpoolfc.com/" target="_blank">Liverpool Ladies</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/opta-stats" target="">Opta Stats</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.sportmediashop.com/shop/liverpool/liverpoolsubscriptions" target="_blank">Programme and Magazine</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/mobile/match-and-news-alerts" target="">Match Text Alerts</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/tickets">TICKETS</a>                <ul class="menu_level_1">
+            
+                <li class="  first last">        <a href="http://hospitality.liverpoolfc.com" target="_blank">Match Hospitality</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/team/first-team" target="">TEAM</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/team/first-team" target="">First Team</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/team/academy" target="">Academy, U23s and U18s</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://ladies.liverpoolfc.com/" target="_blank">Ladies</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="/fans/fan-experience/visiting-anfield" target="">ANFIELD</a>                <ul class="menu_level_1">
+            
+                <li class="bp-medium-more-min-large-primary  first">        <a href="/fans/fan-experience/visiting-anfield" target="">Visiting Anfield</a>        
+    </li>
+
+    
+                <li class="bp-medium-more-min-large-primary ">        <a href="/fans/fan-experience/getting-to-anfield" target="">Getting to Anfield</a>        
+    </li>
+
+    
+                <li class="bp-medium-more-min-large-primary ">        <a href="/stadium-expansion" target="">Stadium Expansion</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://stadiumtours.liverpoolfc.com/?_ga=1.136339504.1847835660.1443798449" target="_blank">Stadium Tours</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://events.liverpoolfc.com/?_ga=1.142109362.1847835660.1443798449" target="_blank">Meetings &amp; Events</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://bootroom.liverpoolfc.com/?_ga=1.161498812.1847835660.1443798449" target="_blank">Bootroom Sports Cafe</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="https://anfieldforever.liverpoolfc.com/index.htm?_ga=1.161498812.1847835660.1443798449" target="_blank">Anfield Forever</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="/fans">FANS</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/membership" target="">Membership</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/watch" target="">LFCTV</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://forums.liverpoolfc.com/" target="_blank">Message Boards</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/social-media/lfc-on-social-media" target="">Social Media</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://open.spotify.com/user/shootmatchday/playlist/78lxjrcD1yI1KnTcx4zY9d" target="_blank">LFC ON SPOTIFY</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/kopkids" target="_blank">Kop Kids</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience" target="">Fan Experience</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/lfcworld" target="">LFC World</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/apps-and-games" target="">Apps &amp; Games</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://competitions.liverpoolfc.com/" target="_blank">Competitions</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/supporters-committee" target="">Supporters Committee</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/lfc-supporter-liaison-officer/about-the-supporters-liaison-officer" target="">Supporter Liaison Officer</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/lfc-official-supporters-clubs" target="">Official Supporters Clubs</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/fans/ldsa" target="">Disabled Supporters Association</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="http://store.liverpoolfc.com/">SHOP</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="http://store.liverpoolfc.com" target="_blank">ONLINE STORE</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.lfcbootroom.tv/" target="_blank">LFC BOOTROOM</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://picturestore.liverpoolfc.com/LFC" target="_blank">LFC PICTURE STORE</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.liverpoolfc.com/shop/official-club-stores" target="_blank">CLUB STORES</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="https://apply.mbna.co.uk/UKNeoCCapp/entry?sc=1OASLFCIGC0067J&amp;mc=OAGLFC0081H&amp;utm_source=liverpoolfc.com&amp;utm_medium=referral&amp;utm_campaign=HPLogo&amp;utm_content=HomeShirt" target="_blank">LFC CREDIT CARD</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="/corporate">CLUB</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/corporate/directors" target="">Corporate Information</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/partners" target="">Partners</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/charter" target="">Club Charter</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/agent-fees-disclosure" target="">Agents’ Fees Disclosure</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://nesn.com/" target="_blank">NESN.com</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/jobs-at-lfc" target="">Jobs At LFC</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience/lfc-is-listening" target="">Customer Experience</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/history" target="">History</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary  last">        <a href="http://help.liverpoolfc.com" target="_blank">HELP</a>                <ul class="menu_level_1">
+            
+                <li class="bp-medium-more-min-large-primary  first">        <a href="http://help.liverpoolfc.com" target="_blank">FAQs</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/contactus" target="">CONTACT</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/atoz" target="">A - Z</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+
+
+    <ul class="more-menu">
+        <li class="more-menu-link">
+            <a>More</a>
+            <div class="icon-menu moreIconCss"></div>
+
+                        <ul>
+            
+                <li class=" active-home first">        <a href="/" target="">HOME</a>        
+    </li>
+
+    
+                            <li class=" active-news">        <a href="/news" target="">NEWS</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/news/first-team" target="">First Team</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/tickets" target="">Ticket News</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/media-watch" target="">Media Watch</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/community" target="">Community</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/announcements" target="">Announcements</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/lfctv" target="">LFCTV - WHAT&#039;S ON</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/hillsborough/inquests" target="_blank">Hillsborough</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/stadium-expansion" target="_blank">Stadium Expansion</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://xtra.liverpoolfc.com/#/account/splash" target="_blank">LFC Xtra</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://nesn.com/liverpool-fc/" target="_blank">LFC on NESN</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/match">MATCH</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="#" target="">F1ixtures and Results</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/premier-league-table" target="">League Table</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/full-premier-league-fixtures-listing" target="">PL Calendar</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/under-23s/fixtures-and-results" target="">U23S</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/under-18s/fixtures-and-results" target="">U18S</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://ladies.liverpoolfc.com/" target="_blank">Liverpool Ladies</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/opta-stats" target="">Opta Stats</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.sportmediashop.com/shop/liverpool/liverpoolsubscriptions" target="_blank">Programme and Magazine</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/mobile/match-and-news-alerts" target="">Match Text Alerts</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/tickets">TICKETS</a>                <ul class="menu_level_1">
+            
+                <li class="  first last">        <a href="http://hospitality.liverpoolfc.com" target="_blank">Match Hospitality</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/team/first-team" target="">TEAM</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/team/first-team" target="">First Team</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/team/academy" target="">Academy, U23s and U18s</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://ladies.liverpoolfc.com/" target="_blank">Ladies</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="/fans/fan-experience/visiting-anfield" target="">ANFIELD</a>                <ul class="menu_level_1">
+            
+                <li class="bp-medium-more-min-large-primary  first">        <a href="/fans/fan-experience/visiting-anfield" target="">Visiting Anfield</a>        
+    </li>
+
+    
+                <li class="bp-medium-more-min-large-primary ">        <a href="/fans/fan-experience/getting-to-anfield" target="">Getting to Anfield</a>        
+    </li>
+
+    
+                <li class="bp-medium-more-min-large-primary ">        <a href="/stadium-expansion" target="">Stadium Expansion</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://stadiumtours.liverpoolfc.com/?_ga=1.136339504.1847835660.1443798449" target="_blank">Stadium Tours</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://events.liverpoolfc.com/?_ga=1.142109362.1847835660.1443798449" target="_blank">Meetings &amp; Events</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://bootroom.liverpoolfc.com/?_ga=1.161498812.1847835660.1443798449" target="_blank">Bootroom Sports Cafe</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="https://anfieldforever.liverpoolfc.com/index.htm?_ga=1.161498812.1847835660.1443798449" target="_blank">Anfield Forever</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="/fans">FANS</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/membership" target="">Membership</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/watch" target="">LFCTV</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://forums.liverpoolfc.com/" target="_blank">Message Boards</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/social-media/lfc-on-social-media" target="">Social Media</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://open.spotify.com/user/shootmatchday/playlist/78lxjrcD1yI1KnTcx4zY9d" target="_blank">LFC ON SPOTIFY</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/kopkids" target="_blank">Kop Kids</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience" target="">Fan Experience</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/lfcworld" target="">LFC World</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/apps-and-games" target="">Apps &amp; Games</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://competitions.liverpoolfc.com/" target="_blank">Competitions</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/supporters-committee" target="">Supporters Committee</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/lfc-supporter-liaison-officer/about-the-supporters-liaison-officer" target="">Supporter Liaison Officer</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/lfc-official-supporters-clubs" target="">Official Supporters Clubs</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/fans/ldsa" target="">Disabled Supporters Association</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="http://store.liverpoolfc.com/">SHOP</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="http://store.liverpoolfc.com" target="_blank">ONLINE STORE</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.lfcbootroom.tv/" target="_blank">LFC BOOTROOM</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://picturestore.liverpoolfc.com/LFC" target="_blank">LFC PICTURE STORE</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.liverpoolfc.com/shop/official-club-stores" target="_blank">CLUB STORES</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="https://apply.mbna.co.uk/UKNeoCCapp/entry?sc=1OASLFCIGC0067J&amp;mc=OAGLFC0081H&amp;utm_source=liverpoolfc.com&amp;utm_medium=referral&amp;utm_campaign=HPLogo&amp;utm_content=HomeShirt" target="_blank">LFC CREDIT CARD</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary ">        <a href="/corporate">CLUB</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/corporate/directors" target="">Corporate Information</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/partners" target="">Partners</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/charter" target="">Club Charter</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/agent-fees-disclosure" target="">Agents’ Fees Disclosure</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://nesn.com/" target="_blank">NESN.com</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/jobs-at-lfc" target="">Jobs At LFC</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience/lfc-is-listening" target="">Customer Experience</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/history" target="">History</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="bp-medium-more-min-large-primary  last">        <a href="http://help.liverpoolfc.com" target="_blank">HELP</a>                <ul class="menu_level_1">
+            
+                <li class="bp-medium-more-min-large-primary  first">        <a href="http://help.liverpoolfc.com" target="_blank">FAQs</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/contactus" target="">CONTACT</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/atoz" target="">A - Z</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+
+
+        </li>
+
+                    <li class="my-account logged-out-only">
+                <a href="https://www.liverpoolfc.com/my-lfc/login" title="Log in">LOG IN</a>
+                        <ul>
+            
+                <li class=" link-login first">        <a href="/my-lfc/login" target="">My LFC</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://tickets.liverpoolfc.com/PagesLogin/Profile/myAccount.aspx" target="">Tickets</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://store.liverpoolfc.com/customer/account/login/" target="">Online Store</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://members.liverpoolfc.com/login" target="">Membership</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/my-lfc/login?fragment=&amp;referer=http://www.liverpoolfc.com/video" target="">LFCTV GO</a>        
+    </li>
+
+    
+                <li class=" separator last">        <a href="http://www.liverpoolfc.com/loginhelp" target="">Not sure?</a>        
+    </li>
+
+
+    </ul>
+
+            </li>
+            <li class="my-account logged-in-only">
+                <a href="https://www.liverpoolfc.com/my-lfc" title="My LFC">MY LFC</a>
+            </li>
+            </ul>
+
+</nav>
+
+
+    <ul class="social-links">    
+            <li class="vixlet">
+            <a title="Go to The Official Liverpool Football Club Xtra page" href="http://lfc.onelink.me/684654549?pid=LFC&amp;c=SOCIALICON" target="_blank"></a>
+        </li>
+            <li class="facebook">
+            <a title="Go to The Official Liverpool Football Club Facebook page" href="https://www.facebook.com/LiverpoolFC" target="_blank"></a>
+        </li>
+            <li class="twitter">
+            <a title="Go to The Official Liverpool Football Club Twitter page" href="https://twitter.com/lfc" target="_blank"></a>
+        </li>
+            <li class="google">
+            <a title="Go to The Official Liverpool Football Club Google+ page" href="https://plus.google.com/+LiverpoolFC/about" target="_blank"></a>
+        </li>
+            <li class="instagram">
+            <a title="Go to The Official Liverpool Football Club Instagram page" href="http://instagram.com/liverpoolfc/" target="_blank"></a>
+        </li>
+            <li class="youtube">
+            <a title="Go to The Official Liverpool Football Club Youtube page" href="http://www.youtube.com/liverpoolfc?sub_confirmation=1" target="_blank"></a>
+        </li>
+            <li class="global">
+            <a title="Go to The Official Liverpool Football Club Global page" href="http://www.liverpoolfc.com/fans/lfc-around-the-globe" target="_blank"></a>
+        </li>
+    </ul>
+
+
+<a href="#mobile-main-menu" id="mobile-main-menu-control" class="mobile-main-menu-control">
+    <span class="label">Menu</span>
+    <span class="icon-menu icon"></span>
+</a>
+
+<nav id="mobile-main-menu" class="mobile-main-menu">
+                <ul>
+            
+                            <li class=" account logged-out-only first">        <a href="/my-lfc/login" target="">LOG IN/REGISTER</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/my-lfc/login" target="">My LFC</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://tickets.liverpoolfc.com/PagesPublic/Login/Login.aspx" target="">Tickets</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://store.liverpoolfc.com/customer/account/login/" target="">Online Store</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://members.liverpoolfc.com/login" target="">Membership</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/my-lfc/login?referer=http://www.liverpoolfc.com/video" target="">LFCTV GO</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://www.liverpoolfc.com/loginhelp" target="">Not sure?</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" account logged-in-only">        <a href="/my-lfc" target="">MY LFC</a>                <ul class="menu_level_1">
+            
+                <li class="  first last">        <a href="/scripts/logout.php" target="">Log Out</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                <li class=" ">        <a href="/">HOME</a>        
+    </li>
+
+    
+                            <li class=" active-news">        <a href="/news">NEWS</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/news" target="">Latest News</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/first-team" target="">First Team</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/tickets" target="">Ticket News</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/media-watch" target="">Media Watch</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/stadium-expansion" target="">Stadium Expansion</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/community" target="">Community</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/news/announcements" target="">Announcements</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/lfctv" target="">LFCTV - What&#039;s On</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/hillsborough/inquests" target="">Hillsborough</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://xtra.liverpoolfc.com/#/account/splash" target="_blank">LFC Xtra</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://nesn.com/liverpool-fc/" target="_blank">LFC on NESN</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/match">MATCH</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/match/fixtures" target="">Fixtures and Results</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/premier-league-table" target="">League Table</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/full-premier-league-fixtures-listing" target="">Premier League Calendar</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/under-23s/fixtures-and-results" target="">u23s</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/2016-17/under-18s/fixtures-and-results" target="">u18s</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://ladies.liverpoolfc.com/" target="_blank">Liverpool Ladies</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/match/opta-stats" target="">Opta Stats</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.sportmediashop.com/shop/liverpool/liverpoolsubscriptions" target="">Programme and Magazine</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/mobile/match-and-news-alerts" target="">Match Text Alerts</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/tickets">TICKETS</a>                <ul class="menu_level_1">
+            
+                <li class="  first last">        <a href="http://hospitality.liverpoolfc.com" target="_blank">Match Hospitality</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                <li class=" ">        <a href="/video" target="">LFCTV GO</a>        
+    </li>
+
+    
+                            <li class=" ">        <a href="/team/first-team" target="">TEAM</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/team/first-team" target="">First Team</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/team/academy" target="">Academy, U23s and U18s</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="http://ladies.liverpoolfc.com/" target="_blank">Ladies</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/fans/fan-experience/visiting-anfield" target="">Anfield</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/fans/fan-experience/visiting-anfield" target="">Visiting Anfield</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience/getting-to-anfield" target="">Getting to Anfield</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/stadium-expansion" target="">Stadium Expansion</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://stadiumtours.liverpoolfc.com/?_ga=1.104350336.1847835660.1443798449" target="_blank">Stadium Tours</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://events.liverpoolfc.com/?_ga=1.132736782.1847835660.1443798449" target="_blank">Meetings &amp; Events</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://bootroom.liverpoolfc.com/?_ga=1.132139790.1847835660.1443798449" target="_blank">Bootroom Sports Cafe</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="https://anfieldforever.liverpoolfc.com/index.htm?_ga=1.103837568.1847835660.1443798449" target="_blank">Anfield Forever</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/fans" target="">FANS</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="http://forums.liverpoolfc.com/" target="_blank">Message Boards</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/watch" target="">LFCTV</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/social-media/lfc-on-social-media" target="">Social Media</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://open.spotify.com/user/shootmatchday/playlist/78lxjrcD1yI1KnTcx4zY9d" target="_blank">LFC On Spotify</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/kopkids" target="_blank">Kop Kids</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience" target="">Fan Experience</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/lfcworld" target="">LFC World</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/apps-and-games" target="">Apps &amp; Games</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://competitions.liverpoolfc.com/" target="_blank">Competitions</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/supporters-committee" target="">Supporters Committee</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/lfc-supporter-liaison-officer/about-the-supporters-liaison-officer" target="">Supporter Liaison Officer</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/lfc-official-supporters-clubs" target="">Official Supporters Clubs</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/fans/ldsa" target="">Disabled Supporters Association</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                <li class=" ">        <a href="/membership" target="">MEMBERSHIP</a>        
+    </li>
+
+    
+                            <li class=" ">        <a href="http://store.liverpoolfc.com/">SHOP</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="http://store.liverpoolfc.com/" target="_blank">Online Store</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.lfcbootroom.tv" target="_blank">LFC BOOTROOM</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="https://picturestore.liverpoolfc.com/LFC" target="_blank">LFC PICTURE STORE</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://lfc.gonedigging.co.uk/" target="_blank">LFC OFF LICENCE</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://www.liverpoolfc.com/shop/official-club-stores" target="_blank">CLUB STORES</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="https://apply.mbna.co.uk/UKNeoCCapp/entry?sc=1OASLFCIGC0053B&amp;mc=OAGLFC00794" target="_blank">LFC CREDIT CARD</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class=" ">        <a href="/corporate">CLUB</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="/corporate/directors" target="">Corporate Information</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/partners" target="">Partners</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/charter" target="">Club Charter</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/corporate/agent-fees-disclosure" target="">Agents’ Fees Disclosure</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="http://nesn.com/" target="_blank">NESN.com</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/jobs-at-lfc" target="">Jobs At LFC</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/fans/fan-experience/lfc-is-listening" target="">Customer Experience</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/history" target="">History</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="  last">        <a href="http://help.liverpoolfc.com" target="_blank">HELP</a>                <ul class="menu_level_1">
+            
+                <li class="  first">        <a href="http://help.liverpoolfc.com" target="_blank">FAQs</a>        
+    </li>
+
+    
+                <li class=" ">        <a href="/contactus" target="">CONTACT</a>        
+    </li>
+
+    
+                <li class="  last">        <a href="/atoz" target="">A - Z</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+
+</nav>
+
+
+            
+            
+                <div class="breadcrumbs">
+
+                    <span class="breadcrumb-prefix">you are here:</span>
+
+                    <ul>
+                        
+                            <li class="home">home</li>
+
+                        
+                    </ul>
+                </div>
+                    </div>
+
+    </header>
+
+        <div class="container">
+
+        
+        <div class="content ">
+
+                                                                                                                                            
+            
+    <!-- homepage -->
+                                        <section id="featured-content">
+    <div class="owl-carousel carousel featured-content autoplay-on autoplayInterval-10000">
+
+                    
+                <div class="carousel-item news-carousel-item " data-title="News">
+    
+    <div class="background"></div>
+    
+    <div id="featured-news" class="featured-news">
+
+        <div id="cms-block-" class="cms-block cms-block-element" data-block-type="sonata.block.service.text">
+        <div class="carousel featured-news-carousel">
+
+    <div class="primary-items">
+
+                
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="News - main"
+                        data-gtm-label="Klopp&#039;s squad update: &#039;No big injury issues until now&#039;"
+                        href="http://www.liverpoolfc.com/news/first-team/244339-klopp-s-squad-update-no-big-injury-issues-until-now"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Klopp&#039;s squad update: &#039;No big injury issues until now&#039;
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/26/thumb_25872_default_news_size_5.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+    </div>
+    <div class="secondary-items">
+
+                                
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="News - secondary"
+                        data-gtm-label="Karius: Team effort is helping keep my goal safe"
+                        href="http://www.liverpoolfc.com/news/first-team/244434-karius-team-effort-is-helping-keep-my-goal-safe"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Karius: Team effort is helping keep my goal safe
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/30/thumb_29979_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="News - secondary"
+                        data-gtm-label="Steven Gerrard on his retirement: The interview in full"
+                        href="http://www.liverpoolfc.com/news/announcements/244361-steven-gerrard-on-his-retirement-the-interview-in-full"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Steven Gerrard on his retirement: The interview in full
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30605_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="News - secondary"
+                        data-gtm-label="Henderson: Reds&#039; togetherness has been key to good start"
+                        href="http://www.liverpoolfc.com/news/first-team/244173-henderson-reds-togetherness-has-been-key-to-good-start"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Henderson: Reds&#039; togetherness has been key to good start
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30467_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="News - secondary"
+                        data-gtm-label="Melwood photo gallery: Reds prepare for Sunderland clash"
+                        href="http://www.liverpoolfc.com/news/first-team/244271-melwood-photo-gallery-reds-prepare-for-sunderland-clash"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Melwood photo gallery: Reds prepare for Sunderland clash
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-camera content-type-gallery"><span class="indent">gallery</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30627_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                
+            <div class="betting-mobile-position">
+                <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE');
+</script> 
+</div>
+
+            </div>
+
+        
+    </div>
+
+</div>
+
+</div>
+
+
+    </div>
+
+        
+        <div class="home-page-mobile-betting-banner partial">
+            <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE');
+</script> 
+</div>
+
+        </div>
+
+        
+        
+        <div class="home-page-primary-advert partial">
+            <div id='div-gpt-ad-RES_MAIN_HOME_CAROUSEL'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_CAROUSEL');
+</script> 
+</div>
+
+        </div>
+
+    
+</div>
+
+
+                                
+                <div class="carousel-item news-carousel-item hide-on-mobile" data-title="Featured">
+    
+    <div class="background"></div>
+    
+    <div id="featured-news" class="featured-news">
+
+        <div id="cms-block-" class="cms-block cms-block-element" data-block-type="sonata.block.service.text">
+        <div class="carousel featured-news-carousel">
+
+    <div class="primary-items">
+
+                
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Featured - main"
+                        data-gtm-label="Alonso, Kaka, Suarez and more: Tributes paid to Steven Gerrard"
+                        href="http://www.liverpoolfc.com/news/announcements/244313-alonso-kaka-suarez-and-more-tributes-paid-to-steven-gerrard"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Alonso, Kaka, Suarez and more: Tributes paid to Steven Gerrard
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30571_default_news_size_5.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+    </div>
+    <div class="secondary-items">
+
+                                
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Featured - secondary"
+                        data-gtm-label="Watch free: Are these Steven Gerrard&#039;s top 10 Liverpool goals?"
+                        href="http://www.liverpoolfc.com/news/announcements/244368-watch-free-are-these-steven-gerrard-s-top-10-liverpool-goals"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Watch free: Are these Steven Gerrard&#039;s top 10 Liverpool goals?
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-play content-type-video"><span class="indent">video</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30607_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Featured - secondary"
+                        data-gtm-label="Behind the Badge: &#039;My dream? To play a small part in LFC winning a trophy&#039;"
+                        href="http://www.liverpoolfc.com/news/first-team/244214-behind-the-badge-my-dream-to-play-a-small-part-in-lfc-winning-a-trophy"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Behind the Badge: &#039;My dream? To play a small part in LFC winning a trophy&#039;
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30475_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Featured - secondary"
+                        data-gtm-label="The Red Weekend sale: Up to 25 per cent off all merchandise"
+                        href="http://www.liverpoolfc.com/news/announcements/244046-the-red-weekend-sale-up-to-25-per-cent-off-all-merchandise"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            The Red Weekend sale: Up to 25 per cent off all merchandise
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30436_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Featured - secondary"
+                        data-gtm-label="Boss warns Sunderland: It&#039;s different at Anfield"
+                        href="http://www.liverpoolfc.com/news/first-team/244352-boss-warns-sunderland-it-s-different-at-anfield"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Boss warns Sunderland: It&#039;s different at Anfield
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/thumb_30602_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                
+            <div class="betting-mobile-position">
+                <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE');
+</script> 
+</div>
+
+            </div>
+
+        
+    </div>
+
+</div>
+
+</div>
+
+
+    </div>
+
+        
+        <div class="home-page-mobile-betting-banner partial">
+            <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE');
+</script> 
+</div>
+
+        </div>
+
+        
+        
+        <div class="home-page-primary-advert partial">
+            <div id='div-gpt-ad-RES_MAIN_HOME_CAROUSEL_FEATURES'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_CAROUSEL_FEATURES');
+</script> 
+</div>
+
+        </div>
+
+    
+</div>
+
+
+                                
+                <div class="carousel-item news-carousel-item hide-on-mobile" data-title="Media Watch">
+    
+    <div class="background"></div>
+    
+    <div id="featured-news" class="featured-news">
+
+        <div id="cms-block-" class="cms-block cms-block-element" data-block-type="sonata.block.service.text">
+        <div class="carousel featured-news-carousel">
+
+    <div class="primary-items">
+
+                
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Media Watch - main"
+                        data-gtm-label="Steven Gerrard poised to accept Academy role"
+                        href="http://www.liverpoolfc.com/news/media-watch/244470-steven-gerrard-poised-to-accept-academy-role"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Steven Gerrard poised to accept Academy role
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/06/thumb_5572_default_news_size_5.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+    </div>
+    <div class="secondary-items">
+
+                                
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Media Watch - secondary"
+                        data-gtm-label="John Arne Riise&#039;s excitement over Liverpool return"
+                        href="http://www.liverpoolfc.com/news/media-watch/244561-john-arne-riise-s-excitement-over-liverpool-return"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            John Arne Riise&#039;s excitement over Liverpool return
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18802_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Media Watch - secondary"
+                        data-gtm-label="Rumours: Klopp needs to &#039;convince&#039; top target to move to Anfield"
+                        href="http://www.liverpoolfc.com/news/media-watch/244474-rumours-klopp-needs-to-convince-top-target-to-move-to-anfield"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Rumours: Klopp needs to &#039;convince&#039; top target to move to Anfield
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18802_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Media Watch - secondary"
+                        data-gtm-label="Moyes ready to park the &#039;double-decker bus&#039; at Liverpool"
+                        href="http://www.liverpoolfc.com/news/media-watch/244529-moyes-ready-to-park-the-double-decker-bus-at-liverpool"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Moyes ready to park the &#039;double-decker bus&#039; at Liverpool
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18803_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="featured-news-item">
+
+                
+                    <a class="featured-news-item-link"
+                        data-gtm-action="Media Watch - secondary"
+                        data-gtm-label="Sunderland star Defoe hails Fowler as he eyes his PL goal tally"
+                        href="http://www.liverpoolfc.com/news/media-watch/244596-sunderland-star-defoe-hails-fowler-as-he-eyes-his-pl-goal-tally"
+                    >
+
+                        <span class="media-thumbnail-grad"></span>
+
+                        <h2 class="post-header">
+                            Sunderland star Defoe hails Fowler as he eyes his PL goal tally
+                        </h2>
+
+                        <div class="media-image-wrap">
+                            
+    
+<span class="icon-helper icon-doc-text content-type-auto"><span class="indent">article</span></span>
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18802_default_news_size_1.jpeg" alt=""  />
+                        </div>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                
+            <div class="betting-mobile-position">
+                <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE');
+</script> 
+</div>
+
+            </div>
+
+        
+    </div>
+
+</div>
+
+</div>
+
+
+    </div>
+
+        
+        <div class="home-page-mobile-betting-banner partial">
+            <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_MOBILE');
+</script> 
+</div>
+
+        </div>
+
+        
+        
+        <div class="home-page-primary-advert partial">
+            <div id='div-gpt-ad-RES_MAIN_HOME_CAROUSEL_MEDIA_WATCH'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_CAROUSEL_MEDIA_WATCH');
+</script> 
+</div>
+
+        </div>
+
+    
+</div>
+
+
+                                
+                <div class="carousel-item match-carousel-item" id="cms-block-4359" data-title="Match">
+        
+                    <style type="text/css">
+                #cms-block-4359 .last-next-match + .last-next-match-background {
+                    background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/page_banner/0001/28/thumb_27718_page_banner_header_large.jpeg') !important;
+                }
+
+                @media only screen and (max-width:1000px) {
+                    #cms-block-4359 .last-next-match + .last-next-match-background {
+                        background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/page_banner/0001/28/thumb_27718_page_banner_header_medium.jpeg') !important;
+                    }
+                }
+            </style>
+                
+        <div class="last-next-match">
+                            <div class="last-match num-fixtures-1">
+                    <h2>LAST MATCH</h2>
+
+                                            <div class="matchinfo">
+                            <div class="scores">
+                                <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/crest/0001/16/thumb_15459_crest_medium.png" title="Southampton" alt="Southampton" class="badge">
+                                <span class="score">0 - 0</span>
+                                <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/crest/0001/17/thumb_16738_crest_medium.png" title="Liverpool" alt="Liverpool" class="badge">
+                            </div>
+                                                            <div style="background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/competition/0001/17/thumb_16892_competition_logo.png')"
+                                     title="Premier League" class="comp-logo">
+                                </div>
+                                                        <p>
+                                                                                                            15:00 Sat 19th November 2016
+                                                                                                </p>
+                                                            <a class="button" href="http://www.liverpoolfc.com/match/2016-17/first-team/southampton-vs-liverpool-live-match-day-blog">MORE</a>
+                                                    </div>
+                                    </div>
+                                        <div class="next-match num-fixtures-2">
+                    <h2>UPCOMING</h2>
+
+                                            <div class="matchinfo">
+                            <div class="scores">
+                                <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/crest/0001/17/thumb_16738_crest_medium.png" title="Liverpool" alt="Liverpool" class="badge">
+                                <span class="versus">V</span>
+                                <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/crest/0001/16/thumb_15461_crest_medium.png" title="Sunderland" alt="Sunderland" class="badge">
+                            </div>
+                                                            <div style="background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/competition/0001/17/thumb_16892_competition_logo.png')"
+                                     title="Premier League" class="comp-logo">
+                                </div>
+                                                        <p>
+                                                                                                            15:00 Sat 26th November 2016
+                                                                                                </p>
+                                                            <a class="button" href="http://www.liverpoolfc.com/match/2016-17/first-team/liverpool-vs-sunderland-live-match-day-blog">MORE</a>
+                                                    </div>
+                                            <div class="matchinfo">
+                            <div class="scores">
+                                <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/crest/0001/17/thumb_16738_crest_medium.png" title="Liverpool" alt="Liverpool" class="badge">
+                                <span class="versus">V</span>
+                                <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/crest/0001/17/thumb_16831_crest_medium.png" title="Leeds United" alt="Leeds United" class="badge">
+                            </div>
+                                                            <div style="background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/competition/0001/24/thumb_23271_competition_logo.png')"
+                                     title="EFL Cup" class="comp-logo">
+                                </div>
+                                                        <p>
+                                                                                                            19:45 Tue 29th November 2016
+                                                                                                </p>
+                                                            <a class="button invisible">MORE</a>
+                                                    </div>
+                                    </div>
+                        <div style="clear: left;"></div>
+        </div>
+        
+        <div class="last-next-match-background"></div>
+    </div>
+
+
+                                
+                
+<div class="carousel-item commercial-image-carousel-item" data-title="LFC Red Weekend Sale">
+
+                    
+    <a class="extraLarge" href="http://store.liverpoolfc.com/"
+                    style="background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/a4f54069c6377624cb066de7ad1ad3a00c151ebe.jpeg')"
+            ></a>
+
+    <a class="large" href="http://store.liverpoolfc.com/"
+                    style="background-image: url('https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/50b16b2383cf67b3db05706c8c52063f4530208a.jpeg')"
+            ></a>
+
+    <a class="medium" href="http://store.liverpoolfc.com/">
+                    <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/ed5a9b4be8361281329dcee42b7a72b394fdf3d7.jpeg"/>
+            </a>
+
+</div>
+
+
+                            
+    </div>
+    <a href="#" class="slideBtn owl-prev"></a>
+    <a href="#" class="slideBtn owl-next"></a>
+</section>
+
+
+
+    <div class="top-adverts-container">
+                    <div class="betting-position">
+                <div id='div-gpt-ad-RES_MAIN_HOME_BETTING_NEW'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_BETTING_NEW');
+</script> 
+</div>
+
+            </div>
+        
+                    <div class="next-to-betting-position">
+                <div id='div-gpt-ad-RES_MAIN_HOME_NEXT_TO_BETTING'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_NEXT_TO_BETTING');
+</script> 
+</div>
+
+            </div>
+            </div>
+
+<section id="content-slider-wrapper">
+
+    <header class="title-container">
+        
+        <h2>FEATURED VIDEOS</h2>
+        
+        <a href="/video/featured-videos" class="view-all"><span>View all</span><span class="next-triangle"></span></a>
+    
+    </header>
+
+    
+    
+    <div class="carousel owl-carousel content-slider">
+
+                            
+        
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#28003">
+            <img src="http://assets1.lfcimages.com/uploads/players/4502__9600__free_transfers_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#28003" class="slider-play-btn free-btn"><div class="rotate-ac-90">Free</div></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#28003">Black Friday Special - Top 10: LFC&#039;s best free transfers</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#28000">
+            <img src="http://assets.lfcimages.com/uploads/players/9650__7942__training_thumbnail_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#28000" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#28000">Inside Training: Reds prepare for Sunderland</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27994">
+            <img src="http://assets2.lfcimages.com/uploads/players/2682__2255__klopps_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27994" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27994">Klopp&#039;s pre-Sunderland press conference in full</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27995">
+            <img src="http://assets3.lfcimages.com/uploads/players/9764__6233__gerrard_5836f59f5c971854482258_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27995" class="slider-play-btn free-btn"><div class="rotate-ac-90">Free</div></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27995">Steven Gerrard retires: The full interview</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27992">
+            <img src="http://assets1.lfcimages.com/uploads/players/1927__5263__gerrard_screamers_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27992" class="slider-play-btn free-btn"><div class="rotate-ac-90">Free</div></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27992">Top 10: Steven Gerrard&#039;s greatest goals</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27997">
+            <img src="http://assets.lfcimages.com/uploads/players/8778__8610__gomez560_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27997" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27997">Every Touch: Joe Gomez v Burnley</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27993">
+            <img src="http://assets2.lfcimages.com/uploads/players/9237__6892__gerrard_remembered_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27993" class="slider-play-btn free-btn"><div class="rotate-ac-90">Free</div></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27993">Gerrard: How I&#039;d like to be remembered?</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27990">
+            <img src="http://assets2.lfcimages.com/uploads/players/1132__2173__23s_burnley_90secs_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27990" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27990">U23s 4-0 Burnley: 90 Seconds..</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27988">
+            <img src="http://assets3.lfcimages.com/uploads/players/5883__2406__clyne_img_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27988" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27988">Clyne on the demands of being a full-back under Klopp</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27980">
+            <img src="http://assets1.lfcimages.com/uploads/players/5556__2909__mane_llor_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27980" class="slider-play-btn free-btn"><div class="rotate-ac-90">Free</div></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27980">How do LFC open up a Premier League defence?</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27966">
+            <img src="http://assets2.lfcimages.com/uploads/players/5694__9389__emre_infocus_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27966" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27966">In Focus: In-depth look at Emre&#039;s 100th appearance</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27965">
+            <img src="http://assets3.lfcimages.com/uploads/players/7076__5621__southamotin_90_seconds_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27965" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27965">Southampton v LFC: 90 Seconds</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/collections/home-academy-highlights-2014-15#27970">
+            <img src="http://assets.lfcimages.com/uploads/players/2155__8997__highlights_23s_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/collections/home-academy-highlights-2014-15#27970" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/collections/home-academy-highlights-2014-15#27970">U23s 2-0 Reading: Highlights</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/collections/home-academy-highlights-2014-15#27960">
+            <img src="http://assets.lfcimages.com/uploads/players/3378__7735__u18s_man_utd_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/collections/home-academy-highlights-2014-15#27960" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/collections/home-academy-highlights-2014-15#27960">U18s 3-3 Man United: Highlights</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27961">
+            <img src="http://assets1.lfcimages.com/uploads/players/8637__3327__klopp_rain_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27961" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27961">Klopp: Why I&#039;m not frustrated by draw</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27964">
+            <img src="http://assets3.lfcimages.com/uploads/players/5249__5380__matip_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27964" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27964">Matip prefers to focus on positives</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27959">
+            <img src="http://assets.lfcimages.com/uploads/players/4940__4077__milner_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27959" class="slider-play-btn"><span class="play-triangle"></span></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27959">Milner happy with performance but not the result</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                        
+    <div class="thumbnail">
+        <a href="http://www.liverpoolfc.com/video/featured-videos#27958">
+            <img src="http://assets.lfcimages.com/uploads/players/6306__0270__analysis_5830917d310ff319916080_560X315.jpg" alt="">
+        </a>
+    </div>
+    <div class="clip-info">
+        <div class="clip-info-left">
+
+            
+            <a href="http://www.liverpoolfc.com/video/featured-videos#27958" class="slider-play-btn free-btn"><div class="rotate-ac-90">Free</div></a>
+
+            
+        </div>
+        <div class="clip-info-right">
+            <span class="desc"><a href="http://www.liverpoolfc.com/video/featured-videos#27958">Southampton v LFC: Analysis</a></span>
+        </div>
+    </div>
+
+
+                    </div>
+
+                
+            
+        
+    </div>
+
+
+
+    <a href="#" class="slideBtn owl-prev"></a>
+    <a href="#" class="slideBtn owl-next"></a>
+    
+
+	
+</section>
+<section id="two-col-content-grid">
+
+    <header class="title-container">
+
+        <h2>LATEST NEWS</h2>
+
+        <a href="/news" class="view-all"><span>more news</span><span class="next-triangle"></span></a>
+
+    </header>
+
+    <div id="cms-block-" class="cms-block cms-block-element" data-block-type="sonata.block.service.text">
+        <div class="two-col-content-grid">
+
+	<div class="primary-items">
+
+        
+                                        
+            <article class="two-col-content-grid-item">
+
+                
+	                <a class="two-col-content-grid-item-link" href="http://www.liverpoolfc.com/news/first-team/244506-friday-s-headlines-team-spirit-special-offers-and-birthdays">
+                        <div class="media-image-wrap">
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/27/thumb_26516_default_news_size_1.jpeg" alt=""  />
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                        </div>
+
+                                                
+                            <div class="post-time-wrap">
+                                <time class="post-time time" datetime="2016-11-25T20:30:00+00:00">25th November</time>
+                            </div>
+                        
+                        <h2 class="post-header">
+                            Friday&#039;s headlines: Team spirit, special offers and birthdays
+                        </h2>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="two-col-content-grid-item">
+
+                
+	                <a class="two-col-content-grid-item-link" href="http://www.liverpoolfc.com/news/first-team/244494-clyne-on-anfield-fear-factor-defoe-threat-and-sunderland">
+                        <div class="media-image-wrap">
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/29/thumb_28800_default_news_size_1.jpeg" alt=""  />
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                        </div>
+
+                                                
+                            <div class="post-time-wrap">
+                                <time class="post-time time" datetime="2016-11-25T19:30:00+00:00">25th November</time>
+                            </div>
+                        
+                        <h2 class="post-header">
+                            Clyne on Anfield &#039;fear factor&#039;, Defoe threat and Sunderland
+                        </h2>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="two-col-content-grid-item">
+
+                
+	                <a class="two-col-content-grid-item-link" href="http://www.liverpoolfc.com/news/first-team/244490-the-view-from-sunderland-we-are-proud-of-henderson">
+                        <div class="media-image-wrap">
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/29/thumb_28472_default_news_size_1.jpeg" alt=""  />
+                            
+    
+<span class="icon-helper icon-doc-text content-type-article"><span class="indent">article</span></span>
+                        </div>
+
+                                                
+                            <div class="post-time-wrap">
+                                <time class="post-time time" datetime="2016-11-25T16:25:00+00:00">25th November</time>
+                            </div>
+                        
+                        <h2 class="post-header">
+                            The view from Sunderland: &#039;We are proud of Henderson&#039;
+                        </h2>
+
+                    </a>
+
+                
+            </article>
+
+            
+    </div>
+    <div class="secondary-items">
+
+            
+        
+                                        
+            <article class="two-col-content-grid-item">
+
+                
+	                <a class="two-col-content-grid-item-link" href="http://www.liverpoolfc.com/news/academy/244396-video-lfc-youngsters-make-emotional-visit-to-auschwitz">
+                        <div class="media-image-wrap">
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/30/thumb_29317_default_news_size_1.jpeg" alt=""  />
+                            
+    
+<span class="icon-helper icon-play content-type-video"><span class="indent">video</span></span>
+                        </div>
+
+                                                
+                            <div class="post-time-wrap">
+                                <time class="post-time time" datetime="2016-11-25T15:55:00+00:00">25th November</time>
+                            </div>
+                        
+                        <h2 class="post-header">
+                            Video: LFC youngsters make emotional visit to Auschwitz
+                        </h2>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="two-col-content-grid-item">
+
+                
+	                <a class="two-col-content-grid-item-link" href="http://www.liverpoolfc.com/news/first-team/244492-liverpool-v-sunderland-compare-the-key-players">
+                        <div class="media-image-wrap">
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/16/thumb_15708_default_news_size_1.jpeg" alt=""  />
+                            
+    
+<span class="icon-helper icon-chart-bar content-type-stats"><span class="indent">stats</span></span>
+                        </div>
+
+                                                
+                            <div class="post-time-wrap">
+                                <time class="post-time time" datetime="2016-11-25T13:45:00+00:00">25th November</time>
+                            </div>
+                        
+                        <h2 class="post-header">
+                            Liverpool v Sunderland: Compare the key players
+                        </h2>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+                                        
+            <article class="two-col-content-grid-item">
+
+                
+	                <a class="two-col-content-grid-item-link" href="http://www.liverpoolfc.com/news/first-team/244500-video-10-of-liverpool-s-best-ever-bargain-transfers">
+                        <div class="media-image-wrap">
+                            
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/23/thumb_22900_default_news_size_1.jpeg" alt=""  />
+                            
+    
+<span class="icon-helper icon-play content-type-video"><span class="indent">video</span></span>
+                        </div>
+
+                                                
+                            <div class="post-time-wrap">
+                                <time class="post-time time" datetime="2016-11-25T12:28:00+00:00">25th November</time>
+                            </div>
+                        
+                        <h2 class="post-header">
+                            Video: 10 of Liverpool&#039;s best ever bargain transfers
+                        </h2>
+
+                    </a>
+
+                
+            </article>
+
+            
+        
+    </div>
+
+</div>
+</div>
+
+
+</section>
+
+<div id="cms-block-6454" class="cms-block cms-block-element" data-block-type="sonata.page.block.container">
+        <div
+            class="container-block block-6454 "
+                >
+                                    <div id="cms-block-6455" class="cms-block cms-block-element" data-block-type="lfc.opta.standings.block.service">
+    <section id="league-table" class="opta-wrapper">
+
+            <header class="title-container">
+            <h1>LEAGUE TABLE</h1>
+                            <a href="/match/league" class="view-all"><span>full table</span><span class="next-triangle"></span></a>
+                    </header>
+    
+    <opta
+            widget="standings"
+            sport="football"
+            competition="8"
+            season="2016"
+            show_layout="full"
+            sorting="false"
+            show_image="false"
+            team_name="normal"
+            team="14"
+                            team_padding="3"
+                                    live="true">
+    </opta>
+
+            <footer> 
+            <a href="/match/league" class="view-all"><span>full table</span><span class="next-triangle"></span></a>
+        </footer>
+    
+</section>
+</div>
+
+                
+    </div>
+</div>
+
+
+
+    <div class="full-banner-position">
+        <div id='div-gpt-ad-RES_MAIN_HOME_MIDDLE_BANNER'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_MIDDLE_BANNER');
+</script> 
+</div>
+
+    </div>
+
+
+<section class="chequered-content-grid">
+
+    <header class="chequered-content-grid-header-wrap">
+
+        <h2 class="chequered-content-grid-header">Media Watch</h2>
+
+        <a href="/news/media-watch" class="more-news-link">view all</a>
+
+        <p class="chequered-content-grid-intro">These stories have been reproduced from external media</p>
+
+    </header>
+
+    <div id="cms-block-" class="cms-block cms-block-element" data-block-type="sonata.block.service.text">
+        
+    <div class="carousel chequered-content-grid-carousel">
+
+                            
+        
+            
+                                                                                                
+                
+                    <div class="carousel-item chequered-content-grid-carousel-item">
+
+                        
+        <a class="carousel-item-link" href="http://www.liverpoolfc.com/news/media-watch/244470-steven-gerrard-poised-to-accept-academy-role">
+
+        
+            <div class="media-image-wrap">
+                
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/06/thumb_5572_default_news_size_4.jpeg" alt=""  />
+            </div>
+
+        
+        <div class="post-meta">
+
+            
+                <p class="post-author author">
+
+                    
+                        <span class="post-author-name name"><span class="value">Telegraph</span></span>
+
+                    
+                </p>
+
+            
+                        
+                <time class="post-time time" datetime="2016-11-25T09:05:43+00:00">25th November</time>
+
+            
+            
+                <h2 class="post-header">
+                    Steven Gerrard poised to accept Academy...
+                </h2>
+
+            
+        </div>
+
+        
+    </a>
+
+
+                    </div>
+
+                
+            
+                                                                                                
+                
+                    <div class="carousel-item chequered-content-grid-carousel-item">
+
+                        
+        <a class="carousel-item-link" href="http://www.liverpoolfc.com/news/media-watch/244561-john-arne-riise-s-excitement-over-liverpool-return">
+
+        
+        <div class="post-meta">
+
+            
+                <p class="post-author author">
+
+                    
+                        <span class="post-author-name name"><span class="value">Echo</span></span>
+
+                    
+                </p>
+
+            
+                        
+                <time class="post-time time" datetime="2016-11-25T15:36:04+00:00">25th November</time>
+
+            
+            
+                <h2 class="post-header">
+                    John Arne Riise&#039;s excitement over Liverpool...
+                </h2>
+
+            
+        </div>
+
+        
+            <div class="media-image-wrap">
+                
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18802_default_news_size_4.jpeg" alt=""  />
+            </div>
+
+        
+    </a>
+
+
+                    </div>
+
+                
+            
+                                                                                                
+                
+                    <div class="carousel-item chequered-content-grid-carousel-item">
+
+                        
+        <a class="carousel-item-link" href="http://www.liverpoolfc.com/news/media-watch/244474-rumours-klopp-needs-to-convince-top-target-to-move-to-anfield">
+
+        
+            <div class="media-image-wrap">
+                
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18802_default_news_size_4.jpeg" alt=""  />
+            </div>
+
+        
+        <div class="post-meta">
+
+            
+                <p class="post-author author">
+
+                    
+                        <span class="post-author-name name"><span class="value">Echo</span></span>
+
+                    
+                </p>
+
+            
+                        
+                <time class="post-time time" datetime="2016-11-25T09:17:55+00:00">25th November</time>
+
+            
+            
+                <h2 class="post-header">
+                    Rumours: Klopp needs to &#039;convince&#039; top...
+                </h2>
+
+            
+        </div>
+
+        
+    </a>
+
+
+                    </div>
+
+                
+            
+                                                                                                
+                
+                    <div class="carousel-item chequered-content-grid-carousel-item">
+
+                        
+        <a class="carousel-item-link" href="http://www.liverpoolfc.com/news/media-watch/244529-moyes-ready-to-park-the-double-decker-bus-at-liverpool">
+
+        
+        <div class="post-meta">
+
+            
+                <p class="post-author author">
+
+                    
+                        <span class="post-author-name name"><span class="value">Metro</span></span>
+
+                    
+                </p>
+
+            
+                        
+                <time class="post-time time" datetime="2016-11-25T12:23:28+00:00">25th November</time>
+
+            
+            
+                <h2 class="post-header">
+                    Moyes ready to park the &#039;double-decker...
+                </h2>
+
+            
+        </div>
+
+        
+            <div class="media-image-wrap">
+                
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18803_default_news_size_4.jpeg" alt=""  />
+            </div>
+
+        
+    </a>
+
+
+                    </div>
+
+                
+            
+                                                                                                
+                
+                    <div class="carousel-item chequered-content-grid-carousel-item">
+
+                        
+        <a class="carousel-item-link" href="http://www.liverpoolfc.com/news/media-watch/244596-sunderland-star-defoe-hails-fowler-as-he-eyes-his-pl-goal-tally">
+
+        
+            <div class="media-image-wrap">
+                
+<img class="carousel-media-image media-image" src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/19/thumb_18802_default_news_size_4.jpeg" alt=""  />
+            </div>
+
+        
+        <div class="post-meta">
+
+            
+                <p class="post-author author">
+
+                    
+                        <span class="post-author-name name"><span class="value">Echo</span></span>
+
+                    
+                </p>
+
+            
+                        
+                <time class="post-time time" datetime="2016-11-25T16:58:09+00:00">25th November</time>
+
+            
+            
+                <h2 class="post-header">
+                    Sunderland star Defoe hails Fowler as...
+                </h2>
+
+            
+        </div>
+
+        
+    </a>
+
+
+                    </div>
+
+                
+            
+        
+    </div>
+
+
+</div>
+
+
+</section>
+
+
+
+    <section class="retail-advert">
+
+                
+                <header class="retail-header-wrap">
+            <h2 class="retail-header">Shop</h2>
+        </header>
+<div class="retail-position">
+<div id='div-gpt-ad-RES_MAIN_HOME_RETAIL'>
+<script>
+     Lfc.gtmAdQueue.push('div-gpt-ad-RES_MAIN_HOME_RETAIL');
+</script> 
+</div>
+</div>
+
+
+        
+    </section>
+
+
+
+<section id="players-carousel">
+
+    <header class="title-container">
+        
+        <h2>FIRST TEAM</h2>
+        
+        <a href="/team" class="view-all"><span>View all</span><span class="next-triangle"></span></a>
+    
+    </header>
+
+    
+    
+    <div class="carousel owl-carousel players-carousel">
+
+                            
+        
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/8708__3359__karius263.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Loris Karius
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Goalkeeper
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    German
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    22 Jun 1993
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                1
+            </span>
+            <span class="name">
+                <div class="front">Karius</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/loris-karius">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/2131__9061__clyne263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Nathaniel Clyne
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    5 Apr 1991
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                2
+            </span>
+            <span class="name">
+                <div class="front">Clyne</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/nathaniel-clyne">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets2.lfcimages.com/uploads/players/2052__0782__sakho263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Mamadou Sakho
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    French
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    13 Feb 1990
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                3
+            </span>
+            <span class="name">
+                <div class="front">Sakho</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/mamadou-sakho">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/6228__6974__wijnaldum263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Georginio Wijnaldum
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Dutch
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    11 Nov 1990
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                5
+            </span>
+            <span class="name">
+                <div class="front">Wijnaldum</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/georginio-wijnaldum">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/3837__5422__lovren263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Dejan Lovren
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Croatian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    5 Jul 1989
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                6
+            </span>
+            <span class="name">
+                <div class="front">Lovren</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/dejan-lovren">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/7271__1081__milner263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    James Milner
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    4 Jan 1986
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                7
+            </span>
+            <span class="name">
+                <div class="front">Milner</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/james-milner">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/9018__4141__coutinho263_57a588380802b845314555_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Philippe Coutinho
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Brazilian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    12 Jun 1992
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                10
+            </span>
+            <span class="name">
+                <div class="front">Coutinho</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/philippe-coutinho">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/4711__2723__firmino263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Roberto Firmino
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Forward
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Brazilian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    2 Oct 1991
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                11
+            </span>
+            <span class="name">
+                <div class="front">Firmino</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/roberto-firmino">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets3.lfcimages.com/uploads/players/5532__1890__gomez263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Joe Gomez
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    23 May 1997
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                12
+            </span>
+            <span class="name">
+                <div class="front">Gomez</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/joe-gomez">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/5008__4530__manninger263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Alex Manninger
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Goalkeeper
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Austrian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    4 Jun 1977
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                13
+            </span>
+            <span class="name">
+                <div class="front">Manninger</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/alex-manninger">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/3234__9821__henderson263_57a589cc06a90825637900_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Jordan Henderson
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    17 Jun 1990
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                14
+            </span>
+            <span class="name">
+                <div class="front">Henderson</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/jordan-henderson">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets3.lfcimages.com/uploads/players/4591__4073__sturridge263_57a58a0918939019759289_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Daniel Sturridge
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Forward
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    1 Sep 1989
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                15
+            </span>
+            <span class="name">
+                <div class="front">Sturridge</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/daniel-sturridge">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/1578__7839__grujic263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Marko Grujic
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Serbian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    13 Apr 1996
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                16
+            </span>
+            <span class="name">
+                <div class="front">Grujic</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/marko-grujic">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/8662__2317__klavan263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Ragnar Klavan
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Estonian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    30 Oct 1985
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                17
+            </span>
+            <span class="name">
+                <div class="front">Klavan</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/ragnar-klavan">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/7418__2002__moreno263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Alberto Moreno
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Spanish
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    5 Jul 1992
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                18
+            </span>
+            <span class="name">
+                <div class="front">Moreno</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/alberto-moreno">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/5472__8834__mane263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Sadio Mane
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Forward
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Senegalese
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    10 Apr 1992
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                19
+            </span>
+            <span class="name">
+                <div class="front">Mane</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/sadio-mane">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/8893__4200__lallana263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Adam Lallana
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    10 May 1988
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                20
+            </span>
+            <span class="name">
+                <div class="front">Lallana</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/adam-lallana">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets3.lfcimages.com/uploads/players/0193__7596__lucas263_57a58be70860d826216384_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Lucas Leiva
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Brazilian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    9 Jan 1987
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                21
+            </span>
+            <span class="name">
+                <div class="front">Lucas</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/lucas-leiva">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets2.lfcimages.com/uploads/players/0481__1515__mignolet263_57a58c0f40a02865872527_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Simon Mignolet
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Goalkeeper
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Belgian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    6 Mar 1988
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                22
+            </span>
+            <span class="name">
+                <div class="front">Mignolet</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/simon-mignolet">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/1414__9681__emre263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Emre Can
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    German
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    12 Jan 1994
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                23
+            </span>
+            <span class="name">
+                <div class="front">Can</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/emre-can">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/7355__1216__brannagan263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Cameron Brannagan
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    9 May 1996
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                25
+            </span>
+            <span class="name">
+                <div class="front">Brannagan</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/cameron-brannagan">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/9034__2220__origi263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Divock Origi
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Striker
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Belgian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    18 Apr 1995
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                27
+            </span>
+            <span class="name">
+                <div class="front">Origi</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/divock-origi">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/0584__6742__ings263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Danny Ings
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Forward
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    23 Jul 1992
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                28
+            </span>
+            <span class="name">
+                <div class="front">Ings</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/danny-ings">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/2702__3906__matip263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Joel Matip
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Cameroonian
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    8 Aug 1991
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                32
+            </span>
+            <span class="name">
+                <div class="front">Matip</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/joel-matip">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets.lfcimages.com/uploads/players/1157__8142__stewart263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Kevin Stewart
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    7 Sep 1993
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                35
+            </span>
+            <span class="name">
+                <div class="front">Stewart</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/kevin-stewart">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets2.lfcimages.com/uploads/players/8219__1153__ojo263_57a58e44519ad793113099_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Sheyi Ojo
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Forward
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    19 Jun 1997
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                54
+            </span>
+            <span class="name">
+                <div class="front">Ojo</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/sheyi-ojo">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets2.lfcimages.com/uploads/players/2843__8058__randall263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Connor Randall
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Defender
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    English
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    21 Oct 1995
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                56
+            </span>
+            <span class="name">
+                <div class="front">Randall</div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/connor-randall">
+    </a>
+
+
+                    </div>
+
+                
+            
+                
+                
+                    <div class="carousel-item ">
+
+                            
+        <div class="thumbnail">
+
+            <img src="http://assets1.lfcimages.com/uploads/players/8418__2532__chirivella263_263X268.jpg" alt="">  
+
+            <div class="overlay">
+                <p class="fullname">
+                    Pedro Chirivella
+                </p>
+                <p>
+                    <label>Pos:</label>
+                    Midfielder
+                </p>
+                <p>
+                    <label>Nat:</label>
+                    Spanish
+                </p>
+                <p>
+                    <label>DOB:</label>
+                    23 May 1997
+                </p>
+            </div>
+
+        </div>
+
+        <div class="player-info">
+
+            <span class="number">
+                68
+            </span>
+            <span class="name">
+                <div class="front">Chirivella </div>
+                <div class="back">view profile</div>
+            </span>
+
+        </div>
+
+    <a href="/team/first-team/player/pedro-chirivella">
+    </a>
+
+
+                    </div>
+
+                
+            
+        
+    </div>
+
+
+
+    <a href="#" class="slideBtn owl-prev"></a>
+    <a href="#" class="slideBtn owl-next"></a>
+    
+
+    
+</section>
+
+
+<section id="social">
+
+    <div id="cms-block-465" class="cms-block cms-block-element" data-block-type="sonata.page.block.container">
+        <div
+            class="container-block block-465 "
+                >
+                                    <div id="cms-block-466" class="cms-block cms-block-element" data-block-type="lfc.frontend.blocks.tint.slider">
+        <div class="lfc-on-social-media">
+
+        <header class="title-container">
+
+            <h2>LFC ON SOCIAL MEDIA</h2>
+
+        </header>
+
+        <ul class="social-links">
+                            <li class="facebook">
+                    <a title="Go to The Official Liverpool Football Club Facebook page" href="https://www.facebook.com/LiverpoolFC" target="_blank"></a>
+                </li>
+                                        <li class="twitter">
+                    <a title="Go to The Official Liverpool Football Club Twitter page" href="https://twitter.com/lfc" target="_blank"></a>
+                </li>
+                                                    <li class="instagram">
+                    <a title="Go to The Official Liverpool Football Club Instagram page" href="http://instagram.com/liverpoolfc/" target="_blank"></a>
+                </li>
+                                </ul>
+
+        <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script>
+        <div class="tintup"
+             data-id="lfchomepage"
+             data-columns=""
+             data-mobilescroll="true"
+             data-infinitescroll="true"
+             style="height:400px;width:100%;">
+        </div>
+
+        <p class="tint-disclaimer">Social Media posts and comments may not represent the views of LFC</p>
+
+    </div>
+</div>
+
+                
+    </div>
+</div>
+
+
+</section>
+
+<section id="lfc-recommends">
+
+    
+	<section id="lfc-recommends">
+	    <h2>LFC recommends</h2>
+
+	    <div class="lfc-recommends">
+
+												<div id="cms-block-15" class="cms-block cms-block-element" data-block-type="lfc.block.service.commercial">
+    <article class="mobile-hide">
+    
+    <a href="http://www.liverpoolfc.com/membership" class="image">
+        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/1939dd3c70acf3b6bed0605987cb1439ba01cc93.jpeg" alt="LFC Membership">
+    </a>
+
+    <div class='description'>
+        <p>
+            LFC Official Membership, the perfect Christmas gift for any true Red.
+        </p>
+        <a class="button" href="http://www.liverpoolfc.com/membership">
+            BUY NOW
+        </a>
+    </div>
+</article>
+</div>
+
+																<div id="cms-block-16" class="cms-block cms-block-element" data-block-type="lfc.block.service.commercial">
+    <article class="mobile-hide">
+    
+    <a href="http://store.liverpoolfc.com/kit/home-kit/" class="image">
+        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/22/3e7beed5477e9c53d3956cf49fdc28eb43664b2b.jpeg" alt="16/17 Home Kit">
+    </a>
+
+    <div class='description'>
+        <p>
+            Get the brand-new, New Balance 16/17 Liverpool FC Home Kit.
+        </p>
+        <a class="button" href="http://store.liverpoolfc.com/kit/home-kit/">
+            SHOP NOW
+        </a>
+    </div>
+</article>
+</div>
+
+																<div id="cms-block-17" class="cms-block cms-block-element" data-block-type="lfc.block.service.commercial">
+    <article class="mobile-hide">
+    
+    <a href="/hospitality" class="image">
+        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/31/08c3ced56112c20082c1838e192e28a374723a64.jpeg" alt="Hospitality">
+    </a>
+
+    <div class='description'>
+        <p>
+            Don’t miss the team in action at Anfield. Hospitality available for the remaining games of the season.
+        </p>
+        <a class="button" href="/hospitality">
+            BUY NOW
+        </a>
+    </div>
+</article>
+</div>
+
+																<div id="cms-block-18" class="cms-block cms-block-element" data-block-type="lfc.block.service.commercial">
+    <article class="mobile-hide">
+    
+    <a href="https://competitions.liverpoolfc.com/" class="image">
+        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/26/e9a78345fad166a484152d5e6e6b36fa73c4d1ec.png" alt="Competition Hub">
+    </a>
+
+    <div class='description'>
+        <p>
+            WIN a signed ball, plus many more exclusive prizes on the Official LFC competitions platform.
+        </p>
+        <a class="button" href="https://competitions.liverpoolfc.com/">
+            ENTER NOW
+        </a>
+    </div>
+</article>
+</div>
+
+							
+	    </div>
+	</section>
+
+
+
+</section>
+
+<section id="lfctv-schedule">
+
+    
+    <header class="title-container">
+            
+        <h2>TODAY ON LFCTV</h2>
+            
+        <a href="/lfctv" class="view-all"><span>Full schedule</span><span class="next-triangle"></span></a>
+        
+    </header>    
+
+    <div class="carousel owl-carousel lfctv-schedule-carousel">
+
+                
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/6130__3041__tns_main_titles560_560X315.jpg" />
+                                            </div>
+
+                    <div class="starttime">04:00</div>
+                    <div class="title">
+                        <h3>
+                            Thursday Night Show
+
+                                                            <br/>
+                                <a class="button" href="http://www.liverpoolfc.com/video/live/live-tv">On now</a>
+                                                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/2502__3061__prem_league_preview_show.jpg" />
+                                            </div>
+
+                    <div class="starttime">05:00</div>
+                    <div class="title">
+                        <h3>
+                            The Premier League Preview Show
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets2.lfcimages.com/uploads/players/2472__4643__lfc_trending.jpg" />
+                                            </div>
+
+                    <div class="starttime">06:00</div>
+                    <div class="title">
+                        <h3>
+                            LFC Trending
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets3.lfcimages.com/uploads/players/1943__3564__lfc_world.jpg" />
+                                            </div>
+
+                    <div class="starttime">06:30</div>
+                    <div class="title">
+                        <h3>
+                            #LFCWORLD Ep 16
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/9449__5331__press560.jpg" />
+                                            </div>
+
+                    <div class="starttime">07:00</div>
+                    <div class="title">
+                        <h3>
+                            Press Box
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/2502__3061__prem_league_preview_show.jpg" />
+                                            </div>
+
+                    <div class="starttime">08:00</div>
+                    <div class="title">
+                        <h3>
+                            The Premier League Preview Show
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/6130__3041__tns_main_titles560_560X315.jpg" />
+                                            </div>
+
+                    <div class="starttime">09:00</div>
+                    <div class="title">
+                        <h3>
+                            Thursday Night Show
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/7059__1070__presserrepeat560.jpg" />
+                                            </div>
+
+                    <div class="starttime">10:00</div>
+                    <div class="title">
+                        <h3>
+                            Press Conference
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/1024__6699__mdl_sundvliv_plasma.jpg" />
+                                            </div>
+
+                    <div class="starttime">10:15</div>
+                    <div class="title">
+                        <h3>
+                            Sunderland v Liverpool: Shortcut
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets3.lfcimages.com/uploads/players/1943__3564__lfc_world.jpg" />
+                                            </div>
+
+                    <div class="starttime">10:30</div>
+                    <div class="title">
+                        <h3>
+                            #LFCWORLD Ep 16
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/9449__5331__press560.jpg" />
+                                            </div>
+
+                    <div class="starttime">11:00</div>
+                    <div class="title">
+                        <h3>
+                            Press Box
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/6130__3041__tns_main_titles560_560X315.jpg" />
+                                            </div>
+
+                    <div class="starttime">12:00</div>
+                    <div class="title">
+                        <h3>
+                            Thursday Night Show
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/2502__3061__prem_league_preview_show.jpg" />
+                                            </div>
+
+                    <div class="starttime">13:00</div>
+                    <div class="title">
+                        <h3>
+                            The Premier League Preview Show
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/7755__1260__matchday_live.jpg" />
+                                            </div>
+
+                    <div class="starttime">14:00</div>
+                    <div class="title">
+                        <h3>
+                            Matchday Live: The Build-up
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/9645__6852__matchday_live.jpg" />
+                                            </div>
+
+                    <div class="starttime">15:00</div>
+                    <div class="title">
+                        <h3>
+                            MDL: Audio Commentary
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets2.lfcimages.com/uploads/players/9053__3331__matchday_live.jpg" />
+                                            </div>
+
+                    <div class="starttime">17:00</div>
+                    <div class="title">
+                        <h3>
+                            MDL: The Reaction
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/5024__7695__matchday_recap.jpg" />
+                                            </div>
+
+                    <div class="starttime">18:00</div>
+                    <div class="title">
+                        <h3>
+                            MDL: Reaction Recap
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img class="placeholder" />
+                                            </div>
+
+                    <div class="starttime">18:30</div>
+                    <div class="title">
+                        <h3>
+                            Double Winners &#039;86
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets3.lfcimages.com/uploads/players/1943__3564__lfc_world.jpg" />
+                                            </div>
+
+                    <div class="starttime">20:00</div>
+                    <div class="title">
+                        <h3>
+                            #LFCWORLD Ep 16
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/7504__3121__hip_hop_quiz_main_sting.jpg" />
+                                            </div>
+
+                    <div class="starttime">20:30</div>
+                    <div class="title">
+                        <h3>
+                            The LFC Hip Hop Quiz
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/5500__3294__clemence_title.jpg" />
+                                            </div>
+
+                    <div class="starttime">21:00</div>
+                    <div class="title">
+                        <h3>
+                            Ray Clemence: Sixty Minutes
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/0604__6853__suarez_allthegoals.jpg" />
+                                            </div>
+
+                    <div class="starttime">22:00</div>
+                    <div class="title">
+                        <h3>
+                            Suarez: All the Goals
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets1.lfcimages.com/uploads/players/2797__1032__torres_allthegoals.jpg" />
+                                            </div>
+
+                    <div class="starttime">23:00</div>
+                    <div class="title">
+                        <h3>
+                            Torres: All the Goals
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets3.lfcimages.com/uploads/players/5553__1240__ee-aye-addio.jpg" />
+                                            </div>
+
+                    <div class="starttime">00:00</div>
+                    <div class="title">
+                        <h3>
+                            Ee-Aye-Addio: 1965 and all that
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets3.lfcimages.com/uploads/players/1943__3564__lfc_world.jpg" />
+                                            </div>
+
+                    <div class="starttime">01:30</div>
+                    <div class="title">
+                        <h3>
+                            #LFCWORLD Ep 16
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/4418__3729__web_news_story.jpg" />
+                                            </div>
+
+                    <div class="starttime">02:00</div>
+                    <div class="title">
+                        <h3>
+                            This Is Anfield
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+            
+                <div class="carousel-item ">
+
+                    <div class="image-wrapper">
+                                                    <img src="http://assets.lfcimages.com/uploads/players/4723__7660__gerrard560.jpg" />
+                                            </div>
+
+                    <div class="starttime">03:00</div>
+                    <div class="title">
+                        <h3>
+                            Gerrard: My Liverpool
+
+                            
+                        </h3>
+                    </div>
+
+                </div>
+
+            
+        
+    </div>
+
+    <a href="#" class="slideBtn owl-prev disabled"></a>
+    <a href="#" class="slideBtn owl-next"></a>
+
+
+
+    
+</section>
+
+                            
+
+    <section id="hillsborough-heysel">
+
+            <div class="hillsborough-heysel">
+
+        <a href="http://www.liverpoolfc.com/history/hillsborough" class="hillsborough"></a>
+        <a href="http://www.liverpoolfc.com/history/heysel" class="heysel"></a>
+
+    </div>
+
+    <div class="ynwa">
+
+        <h1>YOU'LL NEVER WALK ALONE</h1>
+
+    </div>
+
+    </section>
+
+    
+
+        </div>
+
+        
+    </div>
+
+    
+        <footer id="page-footer">
+    <div class="upperBackground"> 
+<section class="partners">
+
+    
+    
+    <div class="Primary">
+
+        
+            <a href="http://www.standardchartered.com/home/en/index.html?camp_id=liverpool_source=liverpoolfctv_medium=4" title="Standard Chartered">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/16/thumb_15152_partnerlogo_partner_footer.png" alt="Standard Chartered">
+
+                
+            </a>
+
+        
+            <a href="http://www.newbalance.com/football" title="New Balance">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/01/thumb_46_partnerlogo_partner_footer.png" alt="New Balance">
+
+                
+            </a>
+
+        
+        </div>
+
+    
+    <div class="Secondary">
+
+        
+            <a href="http://www.carlsberg.com/" title="Carlsberg">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/01/thumb_50_partnerlogo_partner_footer.png" alt="Carlsberg">
+
+                
+            </a>
+
+        
+            <a href="http://www.malaysiaairlines.com/" title="Malaysia Airlines">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/29/thumb_28469_partnerlogo_partner_footer.png" alt="Malaysia Airlines">
+
+                
+            </a>
+
+        
+            <a href="http://www.dunkindonuts.com/" title="Dunkin Donuts">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/01/thumb_53_partnerlogo_partner_footer.png" alt="Dunkin Donuts">
+
+                
+            </a>
+
+        
+            <a href="http://www.tcc-chaokoh.com/" title="Chaokoh">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/28/thumb_27835_partnerlogo_partner_footer.png" alt="Chaokoh">
+
+                
+            </a>
+
+        
+            <a href="http://www.liverpoolfc.com/partners/partner-redirects/nivea" title="Nivea">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/01/thumb_56_partnerlogo_partner_footer.png" alt="Nivea">
+
+                
+            </a>
+
+        
+            <a href="https://www.vixlet.com/" title="Vixlet">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/17/thumb_16158_partnerlogo_partner_footer.png" alt="Vixlet">
+
+                
+            </a>
+
+        
+            <a href="http://www.holleronline.com/" title="Holler">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/27/thumb_26717_partnerlogo_partner_footer.png" alt="Holler">
+
+                
+            </a>
+
+        
+            <a href="https://www.konami.com/wepes/2017" title="Konami">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/27/thumb_26423_partnerlogo_partner_footer.png" alt="Konami">
+
+                
+            </a>
+
+        
+            <a href="https://apply.mbna.co.uk/UKNeoCCapp/entry?sc=1OASLFCIGC0067J&amp;mc=OAGLFC0081H&amp;utm_source=liverpoolfc.com&amp;utm_medium=referral&amp;utm_campaign=PrtnrLogo&amp;utm_content=HomeShirt" title="MBNA">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/01/thumb_59_partnerlogo_partner_footer.png" alt="MBNA">
+
+                
+            </a>
+
+        
+            <a href="http://www.maxxis.co.uk/" title="Maxxis">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/01/thumb_61_partnerlogo_partner_footer.png" alt="Maxxis">
+
+                
+            </a>
+
+        
+            <a href="http://www.instaforex.com/" title="Instaforex">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/12/thumb_11757_partnerlogo_partner_footer.png" alt="Instaforex">
+
+                
+            </a>
+
+        
+            <a href="http://www.scienceinsport.com/" title="Science In Sport">
+
+                
+                                        <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/partnerlogo/0001/27/thumb_26424_partnerlogo_partner_footer.png" alt="Science In Sport">
+
+                
+            </a>
+
+        
+        </div>
+
+    
+
+
+</section>
+</div>
+    <div class="lowerBackground">
+<section class="bottomFooter">
+
+    <div class="footerCrest">
+    </div>
+
+    <div class="footerCrestLeft">
+    </div>
+
+    <div class="footerText">
+
+                                                                                                                                        
+
+        <div class="footer-middleBottom">
+            <a title="Go to Privacy Policy" href="http://www.liverpoolfc.com/legal/terms-and-conditions#privacy">Privacy Policy</a> <span>|</span>
+            <a title="Go to Terms and Conditions" href="http://www.liverpoolfc.com/legal/terms-and-conditions">Terms and Conditions</a> <span>|</span>
+            <a title="Go to Cookies" href="http://www.liverpoolfc.com/legal/cookies">Cookies</a> <span>|</span>
+            <a title="Go to Kop Rules" href="http://www.liverpoolfc.com/fans/the-kop-rules">Kop Rules</a> <span>|</span>
+            <a title="Go to Help" href="http://help.liverpoolfc.com/">Help</a> <span>|</span>
+            <a title="Go to Browser Support" href="http://www.liverpoolfc.com/corporate/browser-support">Browser Support</a> <span>|</span>
+            <a title="Go to RSS Feeds" href="http://www.liverpoolfc.com/corporate/rss-feeds">RSS Feeds</a> <span>|</span>
+            <a title="Go to Contact Us" href="http://www.liverpoolfc.com/contactus">Contact Us</a> <span>|</span>
+            <a title="Go to Accessibility" href="http://www.liverpoolfc.com/accessible/accessible">Accessibility</a> <br>
+        </div>
+
+        <div class="footer-left">
+            &copy; Copyright 2016 The Liverpool Football Club and Athletic Grounds Limited. All rights reserved.
+        </div>
+
+        <div class="footer-right">
+            Developed and maintained by the <a href="https://twitter.com/LFC_Systems" title="LFC_Systems on Twitter" target="_blank">LFC Technology and Transformation Team</a>.
+        </div>
+
+        <div class="footer-middle">
+            Match Statistics supplied by Opta Sports Data Limited. Reproduced under licence from Football DataCo Limited. All rights reserved.
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+</div>
+</footer>
+
+    
+</div>
+
+
+        
+    
+            <script src="http://assets.lfcimages.com/v2/1676/lfc/js/scripts.min.js"></script>
+    
+            <script src="http://widget.cloud.opta.net/2.0/js/widgets.opta.js" type="text/javascript"></script>
+    
+    <script>
+        _optaParams = {
+            custID:             'da747e372c352a82f3dd6174084858fd',
+            language:           'en',
+            suppressAnalytics:  true
+        };
+    </script>
+
+                                                                                                                         
+                
+                    
+
+
+        <script src="http://assets3.lfcimages.com/v2/1676/lfc/js/home-scripts.min.js"></script>
+    
+
+        <!-- monitoring:3e9fda56df2cdd3b039f189693ab7844fbb2d4f6 -->
+    </body>
+</html>
